@@ -1,0 +1,114 @@
+body {
+    background-image: url("/img/bg.jpg");
+}
+
+#video-display {
+    background-color: #000000;
+}
+
+#video-source {
+    color: rgba(0, 0, 0, 0.32);
+}
+
+#video-title {
+    color: #5f99cf;
+}
+
+#video-title a {
+    color: #5f99cf;
+}
+
+#video-list {
+    border: 2px solid lightgray;
+    background-color: #A2AEBA;
+}
+
+#video-list img {
+    border: 4px solid lightgray;
+}
+
+#video-list .focus {
+    border: 6px solid #5f99cf;
+}
+
+#channel-list li, #promo-channel li {
+    color: black;
+    font-weight: bold;
+    background: rgba(255,255,255, 0.2);
+}
+
+#channel-list li:hover, #promo-channel li:hover {
+    background-color: #e0e0e0;
+    background-color: rgba(0,0,0,0.1);
+    color: white;
+}
+
+#header {
+    color: gray;
+}
+
+#footer {
+    color: #A7976A;
+    background: #EFD99A;
+    box-shadow: 0px 1px 4px rgba(150, 130, 73, 0.13);
+}
+#footer span{
+    color: #FDE6A1;
+    font-weight: 700;
+}
+
+#also-like {
+    background: #eee;
+    border: 1px solid lightblue;
+    color: #444;
+}
+
+#vote-button {
+    color: #5f99cf;
+}
+
+#channel-list .chan-selected, #promo-channel .chan-selected, .chan-selected li:hover {
+    color: darkblue;
+    -moz-box-shadow: 5px 5px 5px gray;
+    -webkit-box-shadow: 5px 5px 5px gray;
+    box-shadow: 5px 5px 5px gray;
+    background-color: #cee3f8 !important;
+}
+
+#channel-name {
+    background: #EFEFFF;
+    color: gray;
+    border-color: #DDD}
+
+#channel-add {
+    background: #EFEFFF;
+    color: gray;
+    border-color: #DDD;
+}
+
+#fill-nav {
+    background-color: white;
+}
+
+.nav-button{
+  border-radius: 60px;
+  -webkit-box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+  font-size: 12px;
+  background: rgba(0, 0, 0, 0);
+  padding: 4px 14px 4px 16px;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.nav-button:hover {
+  background: rgba(184, 74, 46, 0.4);
+  text-decoration: none;
+}
+
+.loading {
+    background-image: url('../img/loading.gif');
+    background-repeat: repeat;
+}
